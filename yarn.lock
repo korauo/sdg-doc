@@ -3143,25 +3143,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:2.4.3":
-  version: 2.4.3
-  resolution: "@docusaurus/module-type-aliases@npm:2.4.3"
-  dependencies:
-    "@docusaurus/react-loadable": 5.5.2
-    "@docusaurus/types": 2.4.3
-    "@types/history": ^4.7.11
-    "@types/react": "*"
-    "@types/react-router-config": "*"
-    "@types/react-router-dom": "*"
-    react-helmet-async: "*"
-    react-loadable: "npm:@docusaurus/react-loadable@5.5.2"
-  peerDependencies:
-    react: "*"
-    react-dom: "*"
-  checksum: 22ce1a6a20acc35cdd2ec57e55f29e65dbe0fb3a46aaa8c033ec78bf04cd3087f0523c816c744ed311095512dd686c83e0a8619cc1a2a937c27cd54527739c38
-  languageName: node
-  linkType: hard
-
 "@docusaurus/module-type-aliases@npm:3.1.0":
   version: 3.1.0
   resolution: "@docusaurus/module-type-aliases@npm:3.1.0"
@@ -3178,6 +3159,25 @@ __metadata:
     react: "*"
     react-dom: "*"
   checksum: 067814b4a7f2b5cae3280f184ed732b20c3460a8e4fbe1ab25bed7a6da6b0461cb71c1744bf689a6729cca4a48b07f1b5dd12ac8be2f324b8fbfcbd47d058705
+  languageName: node
+  linkType: hard
+
+"@docusaurus/module-type-aliases@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@docusaurus/module-type-aliases@npm:3.2.0"
+  dependencies:
+    "@docusaurus/react-loadable": 5.5.2
+    "@docusaurus/types": 3.2.0
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    "@types/react-router-config": "*"
+    "@types/react-router-dom": "*"
+    react-helmet-async: "*"
+    react-loadable: "npm:@docusaurus/react-loadable@5.5.2"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 659ccce11680c2d6323cab88556b62fc99e06737bfa473df1987f82ef8d0f091a3dc58f09784edb93e5682e8f5f3231b3254ee93f995084aa491c44386a22f71
   languageName: node
   linkType: hard
 
@@ -3472,25 +3472,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:2.4.3":
-  version: 2.4.3
-  resolution: "@docusaurus/types@npm:2.4.3"
-  dependencies:
-    "@types/history": ^4.7.11
-    "@types/react": "*"
-    commander: ^5.1.0
-    joi: ^17.6.0
-    react-helmet-async: ^1.3.0
-    utility-types: ^3.10.0
-    webpack: ^5.73.0
-    webpack-merge: ^5.8.0
-  peerDependencies:
-    react: ^16.8.4 || ^17.0.0
-    react-dom: ^16.8.4 || ^17.0.0
-  checksum: c123c45630e885b588f808baa06a97f8408a3381906f65cb92ae75732aedfca6ab2cada94f969c08e043b885b95298616440326259b789010e0986cbcd7a960b
-  languageName: node
-  linkType: hard
-
 "@docusaurus/types@npm:3.1.0":
   version: 3.1.0
   resolution: "@docusaurus/types@npm:3.1.0"
@@ -3508,6 +3489,26 @@ __metadata:
     react: ^18.0.0
     react-dom: ^18.0.0
   checksum: 9aa554f2395031f974798b94bea8c8b32d3280d6512ae8f8052a14758507281d696b0ef7fd2c7daf7261f4216c1149ec6beeaa414745a248c83fa1b04bab3ff5
+  languageName: node
+  linkType: hard
+
+"@docusaurus/types@npm:3.2.0":
+  version: 3.2.0
+  resolution: "@docusaurus/types@npm:3.2.0"
+  dependencies:
+    "@mdx-js/mdx": ^3.0.0
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    commander: ^5.1.0
+    joi: ^17.9.2
+    react-helmet-async: ^1.3.0
+    utility-types: ^3.10.0
+    webpack: ^5.88.1
+    webpack-merge: ^5.9.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: c2677afa715a83630b70970e7e67d107ad922f51d0e2d7555faab4eae5f816ae5e0439f7544f68c9842b95813a2f982b4e4bdb9a9ae06161ab55bed257a34e39
   languageName: node
   linkType: hard
 
@@ -8569,19 +8570,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"joi@npm:^17.6.0":
-  version: 17.9.2
-  resolution: "joi@npm:17.9.2"
-  dependencies:
-    "@hapi/hoek": ^9.0.0
-    "@hapi/topo": ^5.0.0
-    "@sideway/address": ^4.1.3
-    "@sideway/formula": ^3.0.1
-    "@sideway/pinpoint": ^2.0.0
-  checksum: 8c3709849293411c524e5a679dba7b42598a29a663478941767b8d5b06288611dece58803c468a2c7320cc2429a3e71e3d94337fe47aefcf6c22174dbd90b601
-  languageName: node
-  linkType: hard
-
 "joi@npm:^17.9.2":
   version: 17.11.0
   resolution: "joi@npm:17.11.0"
@@ -11902,7 +11890,7 @@ __metadata:
   resolution: "sdg-doc@workspace:."
   dependencies:
     "@docusaurus/core": 3.1.1
-    "@docusaurus/module-type-aliases": 2.4.3
+    "@docusaurus/module-type-aliases": 3.2.0
     "@docusaurus/preset-classic": 3.1.0
     "@mdx-js/react": ^2.3.0
     clsx: ^2.0.0
@@ -13219,16 +13207,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack-merge@npm:^5.8.0":
-  version: 5.9.0
-  resolution: "webpack-merge@npm:5.9.0"
-  dependencies:
-    clone-deep: ^4.0.1
-    wildcard: ^2.0.0
-  checksum: 64fe2c23aacc5f19684452a0e84ec02c46b990423aee6fcc5c18d7d471155bd14e9a6adb02bd3656eb3e0ac2532c8e97d69412ad14c97eeafe32fa6d10050872
-  languageName: node
-  linkType: hard
-
 "webpack-merge@npm:^5.9.0":
   version: 5.10.0
   resolution: "webpack-merge@npm:5.10.0"
@@ -13244,43 +13222,6 @@ __metadata:
   version: 3.2.3
   resolution: "webpack-sources@npm:3.2.3"
   checksum: 989e401b9fe3536529e2a99dac8c1bdc50e3a0a2c8669cbafad31271eadd994bc9405f88a3039cd2e29db5e6d9d0926ceb7a1a4e7409ece021fe79c37d9c4607
-  languageName: node
-  linkType: hard
-
-"webpack@npm:^5.73.0":
-  version: 5.88.0
-  resolution: "webpack@npm:5.88.0"
-  dependencies:
-    "@types/eslint-scope": ^3.7.3
-    "@types/estree": ^1.0.0
-    "@webassemblyjs/ast": ^1.11.5
-    "@webassemblyjs/wasm-edit": ^1.11.5
-    "@webassemblyjs/wasm-parser": ^1.11.5
-    acorn: ^8.7.1
-    acorn-import-assertions: ^1.9.0
-    browserslist: ^4.14.5
-    chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.15.0
-    es-module-lexer: ^1.2.1
-    eslint-scope: 5.1.1
-    events: ^3.2.0
-    glob-to-regexp: ^0.4.1
-    graceful-fs: ^4.2.9
-    json-parse-even-better-errors: ^2.3.1
-    loader-runner: ^4.2.0
-    mime-types: ^2.1.27
-    neo-async: ^2.6.2
-    schema-utils: ^3.2.0
-    tapable: ^2.1.1
-    terser-webpack-plugin: ^5.3.7
-    watchpack: ^2.4.0
-    webpack-sources: ^3.2.3
-  peerDependenciesMeta:
-    webpack-cli:
-      optional: true
-  bin:
-    webpack: bin/webpack.js
-  checksum: 9fd1568b34ec2e99ba97c8509a15ab2576ec80c396e7015551ec814b24cfc11de173acba3e114dafe95f1a6d460781b09d6201e6a1fb15110e1d01a09f61a283
   languageName: node
   linkType: hard
 
